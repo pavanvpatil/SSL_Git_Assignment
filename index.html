@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Project Overview</title>
+    <style>
+        #output{
+            margin-left: 10%;
+            margin-right: 10%;
+            margin-top: 3%;
+            margin-bottom: 3%;
+        }
+        .imageContainer{
+            display: flex;
+            width: 100%;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .image{
+            width: 75%;
+            height: 600px;
+            margin: 1%;
+        }
+    </style>
+</head>
+<body>
+    <div class="nav">
+        <button class="navButton" onclick="page1()">Project Overview</button>
+        <button class="navButton" onclick="page2()">Project Components</button>
+        <button class="navButton" onclick="page3()">Distribution of efforts</button>
+        <button class="navButton" onclick="page4()">Team members</button>
+    </div>
+    <div>
+    <div id="overiew">
+        <h1 style="text-align: center;">Project Overview</h1>
+        <div id="output">
+            Compete website enables users to use the features of efficient examination conduct seemlessly. Every user has a feature to host any objective based quiz by mentioning the necessary details of the quiz conduct like quiz date, quiz time and duration. The host can also set the academic criteria for the users to register for the quiz. Every user in the website can register for the quiz given they have passed necessary academic requirements by suitable means and give the examination on the quiz portal. After giving the examination users can veiw there quiz report which enables them to reassess their performance. The home page has many features which enables users to view their profile, know about how the website works and many more.
+        </div>
+    </div>
+    <h1 style="text-align: center;">Website Photos</h1>
+    <div class="imageContainer">
+        <img src="images/2.jpeg" alt="" class="image">
+        <img src="images/1.jpeg" alt="" class="image">
+        <img src="images/3.jpeg" alt="" class="image">
+        <img src="images/4.png" alt="" class="image">
+        <img src="images/5.jpeg" alt="" class="image">
+    </div>
+    <script src="pageSwitch.js"></script>
+</body>
+</html>
